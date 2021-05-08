@@ -1,0 +1,18 @@
+.text-responsive{
+    margin:1em  auto;
+    text-align: center;
+}
+
+.title-responsive{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.size-responsive{
+  width:50% !important;
+}
+@media only screen and (max-width: 1300px) {
+    .size-responsive {
+      width: 100%!important;
+    }
+  }
