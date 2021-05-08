@@ -1,6 +1,6 @@
-import React, { useContext, Component } from 'react'
+import React  from 'react'
 import { Navbar, Nav, Button } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 // import '../Cssfiles/header.css'
 
