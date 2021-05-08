@@ -1,0 +1,23 @@
+
+.rs-footer-inner {
+    background: #06619e;
+}
+.rs-footer-inner{
+    color: #ffffff;
+}
+.rs-footer-inner .footer-section .openingfoot li {
+    padding: 0 0 16px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+.rs-footer-bottom .copy-right-part p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.rs-footer-bottom {
+    background: #0d4e83;
+    padding: 20px 0;
+}
