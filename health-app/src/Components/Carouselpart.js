@@ -7,7 +7,7 @@ import '../Cssfiles/Carouselcss.css'
 
 const Carouselpart = () => {
   return(
-      <Carousel nextLabel="" prevLabel="" >
+      <Carousel nextLabel="" prevLabel="" interval={700}>
         <Carousel.Item>
           <img className="d-block w-100 responsive"  src={Doctor} alt="First slide"/>
         </Carousel.Item>

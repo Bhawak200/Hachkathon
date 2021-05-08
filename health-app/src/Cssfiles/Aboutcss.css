@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,800&display=swap');
+
+
 .text-responsive{
     margin:1em  auto;
     text-align: center;
+    font-family: 'Bitter', serif;
+    color:rgb(92, 68, 146);
+   
 }
 
 .title-responsive{
     text-align: center;
     font-size: 3rem;
     text-decoration: underline;
+    font-family: 'Bitter', serif;
+    color:darkgoldenrod
 }
 .size-responsive{
   width:50% !important;

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,800&display=swap');
+
+.doctor-styling{
+    font-family: 'Bitter', serif;
+    font-size:5em !important;
+    color:darkblue;
+}
