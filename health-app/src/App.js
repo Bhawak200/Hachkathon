@@ -24,7 +24,7 @@ function App() {
 				<div
 					className="container"
 					style={{
-						margin: "10%",
+						margin: "10% 10% 2% 10%",
 						border: "1px",
 						borderRadius: "6px",
 					}}
@@ -89,10 +89,10 @@ function App() {
 							availability="11 am - 5pm in Sterling Hospitals"
 							path={Img5}
 						/>
-						<button className="btn btn-outline-info">
-							See more
-						</button>
 					</div>
+				</div>
+				<div style={{ textAlign: "center", marginBottom: "6%" }}>
+					<button className="btn btn-outline-info">See More</button>
 				</div>
 				<Footer></Footer>
 			</div>
