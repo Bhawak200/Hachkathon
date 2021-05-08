@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-class Register extends React.Component {
+class Login extends React.Component {
 	constructor() {
 		super();
 		this.state = {
@@ -16,14 +16,13 @@ class Register extends React.Component {
 	}
 	handleChange(event) {
 		const { name, value } = event.target;
-		console.log(name, value);
 		this.setState({
 			[name]: value,
 		});
 	}
 
 	handleSubmit(event) {
-		console.log("Submited");
+		console.log("Submited!!!");
 		event.preventDefault();
 	}
 
@@ -136,4 +135,4 @@ class Register extends React.Component {
 	}
 }
 
-export default Register;
+export default Login;
