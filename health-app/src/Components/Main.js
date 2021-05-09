@@ -9,7 +9,7 @@ import Img5 from "./Images/trial/5.jpg";
 
 import Header from "./header";
 import Footer from "./footer";
-import  '../Cssfiles/Doctorpart.css'
+import "../Cssfiles/Doctorpart.css";
 import About from "./About";
 
 function Main() {
@@ -30,18 +30,11 @@ function Main() {
 				>
 					<p
 						className="fs-1 text-center doctor-styling "
-						style={{ textDecoration: " bold",  }}
+						style={{ textDecoration: " bold" }}
 					>
 						Our Doctors
 					</p>
-					<div
-						className="badges-container"
-						style={{
-							overflow: "auto",
-							display: "flex",
-							justifyContent: "space-around",
-						}}
-					>
+					<div className="badges-container">
 						<Badge
 							name="Robert Adler"
 							education="MD, MSEd"
@@ -65,15 +58,7 @@ function Main() {
 						/>
 					</div>
 
-					<div
-						className="badges-container"
-						style={{
-							overflow: "auto",
-							display: "flex",
-							justifyContent: "space-around",
-							alignItems: "baseline",
-						}}
-					>
+					<div className="badges-container">
 						<Badge
 							name="Mark Borchert"
 							education="MD"
