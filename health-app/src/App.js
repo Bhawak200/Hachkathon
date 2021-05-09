@@ -1,7 +1,7 @@
-import React from "react"
-import Login from "./Components/Login"
-import Main from "./Components/Main"
-import {BrowserRouter as Router,Switch, Route} from "react-router-dom"
+import React from "react";
+import Login from "./Components/Login";
+import Main from "./Components/Main";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
 	return (
@@ -11,6 +11,6 @@ const App = () => {
 				<Route exact path="/login" component={Login}></Route>
 			</Switch>
 		</Router>
-	)
-}
+	);
+};
 export default App;

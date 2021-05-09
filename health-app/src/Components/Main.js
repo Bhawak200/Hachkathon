@@ -88,6 +88,8 @@ function Main() {
 							availability="11 am - 5pm in Sterling Hospitals"
 							path={Img5}
 						/>
+					</div>
+					<div style={{ textAlign: "center" }}>
 						<button className="btn btn-outline-info">
 							See more
 						</button>
@@ -99,4 +101,4 @@ function Main() {
 	);
 }
 
-export default Main
+export default Main;
