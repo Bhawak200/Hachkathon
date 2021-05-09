@@ -4,91 +4,89 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import '../Cssfiles/footer.css'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
       <>
-    <div class="rs-footer-inner pb-100 md-pb-80">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-12">
-                <div class="footer-section pt-100 md-pt-80">
-                    <div class="footer-logo">
-                        <img src="images/logo2.png" alt=""/>
-                    </div>
-                    <div class="widget-desc">
+    {/* <div className="rs-footer-inner pb-100 md-pb-80">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-3 col-md-12">
+                <div className="footer-section pt-100 md-pt-80">
+                    <div className="widget-desc">
                         <p>
-                            we denounce with righteous indignation and dislike men who are so beguiled that make awesome website with optimize.
+                            We are here to help you ulilizing your precious time efficiently.
                         </p>
                     </div>
-                    <div class="widget-contact">
+                    <div className="widget-contact">
                         <ul>
                             <li>
-                                <i class="fa fa-globe"></i>
+                            <FontAwesomeIcon icon={faHome} />
                                 Middle Badda, Dhaka
                             </li>
                             <li>
-                                <i class="fa fa-envelope"></i>
+                                <i className="fa fa-envelope"></i>
                                 <a href="#">support@rstheme.com</a>
                             </li>
                             <li>
-                                <i class="fa fa-clock-o"></i>
+                                <i className="fa fa-clock-o"></i>
                                 10:00 AM - 11:30 PM
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
-                <div class="footer-section pt-100 md-pt-35">
-                    <div class="footer-title">
+            <div className="col-lg-3 col-md-12">
+                <div className="footer-section pt-100 md-pt-35">
+                    <div className="footer-title">
                         <h3>recent posts</h3>
                     </div>
-                    <div class="recent-post-widget mb-20">
-                        <div class="post-img">
+                    <div className="recent-post-widget mb-20">
+                        <div className="post-img">
                             <img src="images/footer/img/5.jpg" alt=""/>
                         </div>
-                        <div class="post-item">
-                            <div class="post-desc">
+                        <div className="post-item">
+                            <div className="post-desc">
                                 <a href="#">We care about your health?</a>
                             </div>
-                            <span class="post-date">
-                                <i class="fa fa-calendar"></i>
+                            <span className="post-date">
+                                <i className="fa fa-calendar"></i>
                                 November 5,2018
                             </span>
                         </div>
                     </div>	
-                    <div class="recent-post-widget mb-20">
-                        <div class="post-img">
+                    <div className="recent-post-widget mb-20">
+                        <div className="post-img">
                             <img src="images/footer/img/6.jpg" alt=""/>
                         </div>
-                        <div class="post-item">
-                            <div class="post-desc">
+                        <div className="post-item">
+                            <div className="post-desc">
                                 <a href="#"> Your Smile Make us Happy </a>
                             </div>
-                            <span class="post-date">
-                                <i class="fa fa-calendar"></i>
+                            <span className="post-date">
+                                <i className="fa fa-calendar"></i>
                                 November 5,2018
                             </span>
                         </div>
                     </div>	
-                    <div class="recent-post-widget">
-                        <div class="post-img">
+                    <div className="recent-post-widget">
+                        <div className="post-img">
                             <img src="images/footer/img/5.jpg" alt=""/>
                         </div>
-                        <div class="post-item">
-                            <div class="post-desc">
+                        <div className="post-item">
+                            <div className="post-desc">
                                 <a href="#"> Expert Doctor Check up </a>
                             </div>
-                            <span class="post-date">
-                                <i class="fa fa-calendar"></i>
+                            <span className="post-date">
+                                <i className="fa fa-calendar"></i>
                                 November 5,2018
                             </span>
                         </div>
                     </div>
                 </div>					
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div className="col-lg-3 col-md-12">
                 <div class="footer-section pl-60 md-pl-0 pt-100 md-pt-45">
                     <div class="footer-title">
                         <h3>opening hours</h3>
@@ -104,12 +102,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
-                <div class="footer-section pt-100 md-pt-35">
-                    <div class="footer-title">
+            <div className="col-lg-3 col-md-12">
+                <div className="footer-section pt-100 md-pt-35">
+                    <div className="footer-title">
                         <h3>SignUp For Newsletter</h3>
                     </div>
-                    <div class="widget-desc md-mt-0">
+                    <div className="widget-desc md-mt-0">
                         <p>
                             Awesome medical template for single doctor or clinic or hospital. 
                                 This theme will help you organizing your site.
@@ -120,19 +118,19 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-    </div>
-    <div class="rs-footer-bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="copy-right-part text-center">
-						<p>© 2019 All Rights Reserved</p>
+    </div> */}
+    <div className="rs-footer-bottom">
+		<div className="container">
+			<div className="row">
+				<div className="col-lg-12">
+					<div className="copy-right-part text-center">
+						<p>© 2021 All Rights Reserved</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+{/* </div> */}
 
     </>
   );

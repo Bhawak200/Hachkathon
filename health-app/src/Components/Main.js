@@ -7,7 +7,7 @@ import Img3 from "./Images/trial/3.jpg";
 import Img4 from "./Images/trial/4.jpg";
 import Img5 from "./Images/trial/5.jpg";
 
-import Header from "./header";
+import Navbar from "./Navbar";
 import Footer from "./footer";
 import "../Cssfiles/Doctorpart.css";
 import About from "./About";
@@ -16,7 +16,7 @@ function Main() {
 	return (
 		<>
 			<div>
-				<Header> </Header>
+				<Navbar> </Navbar>
 				<Carouselpart></Carouselpart>
 				<About></About>
 
@@ -75,7 +75,7 @@ function Main() {
 						/>
 					</div>
 					<div style={{ textAlign: "center" }}>
-						<button className="btn btn-outline-info">
+						<button className="btn btn-lg btn-warning see-more">
 							See more
 						</button>
 					</div>
