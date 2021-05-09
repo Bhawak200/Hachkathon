@@ -75,7 +75,7 @@ function Main() {
 						/>
 					</div>
 					<div style={{ textAlign: "center" }}>
-						<button className="btn btn-outline-info">
+						<button className="btn btn-lg btn-warning see-more">
 							See more
 						</button>
 					</div>

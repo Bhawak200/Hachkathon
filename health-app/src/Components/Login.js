@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Login extends React.Component {
@@ -126,9 +127,11 @@ class Login extends React.Component {
 						</div>
 						<br />
 					</div>
+					<Link to='/'>
 					<button type="submit" className="btn-primary btn">
 						Register
 					</button>
+					</Link>
 				</form>
 			</div>
 		);
