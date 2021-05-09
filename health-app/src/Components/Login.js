@@ -1,6 +1,7 @@
 import React from "react";
-import {Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { db } from "./database";
 
 class Login extends React.Component {
 	constructor() {
@@ -23,7 +24,20 @@ class Login extends React.Component {
 	}
 
 	handleSubmit(event) {
-		console.log("Submited!!!");
+		db.collection(this.state.city).add({
+			name: this.state.name,
+			qualification: this.state.qualification,
+			specilisation: this.state.specilisation,
+			availability: this.state.availability,
+			index: 5,
+		});
+		this.setState({
+			name: "",
+			city: "",
+			qualification: "",
+			specilisation: "",
+			availability: "",
+		});
 		event.preventDefault();
 	}
 
@@ -127,11 +141,9 @@ class Login extends React.Component {
 						</div>
 						<br />
 					</div>
-					<Link to='/'>
 					<button type="submit" className="btn-primary btn">
 						Register
 					</button>
-					</Link>
 				</form>
 			</div>
 		);
