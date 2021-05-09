@@ -6,7 +6,7 @@ import Mask from './Video/Mask.mp4'
 
 const About = () => {
     return(
-        <CardGroup style={{ marginTop: '1rem' }}>
+        <CardGroup style={{ marginTop: '1rem',backgroundColor:"white" }}>
                     
                     <video src={Mask} className="size-responsive" style={{maxHeight:"70vh"}} controls="controls" autoplay="true"/>
                 <Card>

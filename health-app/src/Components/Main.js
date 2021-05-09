@@ -9,7 +9,7 @@ import Img5 from "./Images/trial/5.jpg";
 
 import Header from "./header";
 import Footer from "./footer";
-
+import  '../Cssfiles/Doctorpart.css'
 import About from "./About";
 
 function Main() {
@@ -23,14 +23,14 @@ function Main() {
 				<div
 					className="container"
 					style={{
-						margin: "10%",
+						margin: "5%",
 						border: "1px",
 						borderRadius: "6px",
 					}}
 				>
 					<p
-						className="fs-1 text-center"
-						style={{ textDecoration: "underline" }}
+						className="fs-1 text-center doctor-styling "
+						style={{ textDecoration: " bold",  }}
 					>
 						Our Doctors
 					</p>
