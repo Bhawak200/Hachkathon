@@ -1,9 +1,13 @@
 
 .rs-footer-inner {
-    background: #06619e;
+    background: #008080;
 }
 .rs-footer-inner{
     color: #ffffff;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
 }
 .rs-footer-inner .footer-section .openingfoot li {
     padding: 0 0 16px 0;
@@ -18,6 +22,6 @@
     margin: 0;
 }
 .rs-footer-bottom {
-    background: #0d4e83;
+    background: #008B8B;
     padding: 20px 0;
 }
