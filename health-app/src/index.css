@@ -37,5 +37,5 @@ code {
 }
 .company-name{
 	font-family: 'Bitter', serif;
-	color:white;
+	color:white !important;
 }
